@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 928px;
+    margin: 0 auto;
+}
+
+.nav-top,
+.left-nav-top,
+.right-nav-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.custom-nav-top{
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+.nav-top {
+    padding: 4px;
+}
+
+.left-nav-top {
+    font-style: italic;
+    font-size: 11px;
+}
+
+.left-nav-top i {
+    color: #1bce8d;
+}
+
+.right-nav-top .search-nav-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.right-nav-top .search-nav-top input {
+    width: 65%;
+    border: none;
+    outline: none;
+    font-style: italic;
+}
+
+.right-nav-top .search-nav-top i {
+    font-size: 12px;
+    color: #1bce8d;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.right-nav-top select {
+    background: transparent;
+}
+.right-nav-top .option-nav-top select {
+    padding: 2px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #fff;
+    background-image: url(img/vitenam\ \(1\).png);
+    background-size: cover;
+    background-position: left;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-navbar img{
+    width: 75%;
+}
+.right-navbar ul{
+    display: flex;
+    align-items: center;
+}
+.right-navbar li{
+    list-style: none;
+    padding: 25px 15px;
+}
+.right-navbar a{
+    text-decoration: none;
+    /* color: ; */
+    font-size: 12px;
+}
+.banner{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-banner h1{
+    
+}
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 928px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 740px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {}

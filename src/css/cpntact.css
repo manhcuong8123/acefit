@@ -1,0 +1,147 @@
+.text-header-news h1 {
+    font-size: 21px;
+    margin: 10px 7px 10px 0px;
+}
+.content-contact {
+    margin: -19px 0 0 0;
+    padding: 20px 0 20px;
+    background-color: #fff;
+}
+.list-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.item-contact{
+    display: flex;
+    gap: 10px;
+    padding:0 22px 0 0;
+}
+.item-contact i {
+    padding: 27px;
+    background-color: #eff4fa;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.item-contact p{
+    font-size: 12.5px;
+    margin: 21px 0px 0 0px;
+    line-height: 16.5px;
+    word-spacing: -2px;
+}
+.item-contact:nth-child(2) p{
+    font-size: 22px;
+    margin: 31px 0 0 1px;
+
+}
+.item-contact:nth-child(3) p{
+    margin: 28px 0 0 9px;
+}
+/* maps */
+
+.maps-contact{
+    position: relative;
+    width: 100%;
+    margin-top: 28px;
+    overflow: hidden;
+}
+.abc-test{
+    padding: 30px;
+    width: 43.7%;
+    right: 0;
+    top: 0;
+    background-color: #1bcd8d;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    z-index: -1;
+}
+.content-maps{
+    display: grid;
+    grid-template-columns: 1.55fr 1.2fr;
+    position: relative;
+    overflow: hidden;
+}
+.right-maps-contact {
+    background-color: #1bcd8d;
+    padding: 28px 0px 30px 24px;
+    position: relative;
+    z-index: 2 !important;
+}
+.right-maps-contact::after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 160px;
+    height: 455px;
+    background-color: #1bcd8d;
+    top: 0;
+    left: -87px;
+    transform: rotate(22deg);
+}
+.right-maps-contact h3{
+    font-size: 19px;
+    color: #fff;
+    margin: 0 0 0 5px;
+}
+.right-maps-contact p {
+    color: #fff;
+    margin: 7px 0 22px 3px;
+    font-size: 12px;
+    word-spacing: 0px;
+}
+.link-maps iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 57.3%;
+    z-index: -1 !important;
+    
+}
+.right-maps-contact form {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 9px;
+    row-gap: 6px;
+}
+
+.right-maps-contact form input {
+    border: none;
+    background-color: #ffffff47;
+    border-radius: 5px;
+    width: 46.5%;
+    padding: 10px 0px 8px 12px;
+    outline: none;
+    color: #fff;
+}
+.right-maps-contact form input::placeholder{
+    color: #fff;
+}
+.right-maps-contact form textarea {
+    resize: none;
+    display: block;
+    width: 96%;
+    height: 100px;
+    background-color: #ffffff47;
+    border: none;
+    outline:  none; 
+    color: #fff;
+    padding: 10px;
+}
+.right-maps-contact form textarea::placeholder{
+    color: #fff;
+}
+.right-maps-contact form button {
+    width: 96%;
+    text-transform: uppercase;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 15px;
+    background: #fff;
+    border: none;
+    margin: 5px 0 0 0;
+}
+.bg-footer {
+    margin: 17px 0 0 0;
+}
